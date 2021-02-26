@@ -7,6 +7,7 @@
   #display both hands, assign variables to each possible hand
 #How to take into account all of the different final hand combinations
   #write possibilities, then combine and condense code later
+  #add comment
 
 from random import randrange
 
