@@ -1,14 +1,3 @@
-# Generate your questions & answers below:
-#What will be difficult?
-  #Looping through options for which hand to play
-#How to randomize computer's hand? What to import?
-  #from random import randrange, randrange (1,4)
-#How to pull data as to who wins?
-  #display both hands, assign variables to each possible hand
-#How to take into account all of the different final hand combinations
-  #write possibilities, then combine and condense code later
-  #add comment
-
 from random import randrange
 
 #Ask user to select which item they want to play for this round
@@ -33,7 +22,6 @@ else:
     print("The computer has chosen Scissors")
 
 #Decide who wins
-
 if (user_input == computers_hand):
   print("This round is a tie")
 elif user_input == 1 and computers_hand == 2:
@@ -46,6 +34,5 @@ elif (user_input == 2 and computers_hand == 1):
   print("The user has won")
 elif (user_input == 2 and computers_hand == 3):
   print("The computer has won")
-#elif (user_input == 3 and computers_hand == 1):
 else:  
   print("The computer has won")
